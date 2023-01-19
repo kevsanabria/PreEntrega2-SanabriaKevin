@@ -40,7 +40,7 @@ let dato = prompt("Filtrar pokemons segun su tipo: \n Electrico \n Fuego \n Hiel
     if (filtroPokemon != 0)
     {
         console.log(filtroPokemon.length)
-        let nombrePokemon = filtroPokemon.map((filtroPokemon) => {return filtroPokemon.nombre} )
+        let nombrePokemon = filtroPokemon.map((filtroPokemon) => {return "\n" + filtroPokemon.nombre } )
         alert (nombrePokemon)
         console.log(nombrePokemon)
         console.log(filtroPokemon)
